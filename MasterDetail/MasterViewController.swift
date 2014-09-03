@@ -18,24 +18,6 @@ let myArtists : [Artist] = [
     Artist(name: "Two", additionalInformation: "Bla bla")
 ]
 
-struct VC<From,To> {
-    typealias Func = (From, (To, UINavigationController) -> ()) -> UIViewController
-    let vc : Func
-    
-    init(_ vc: Func) {
-        self.vc = vc
-    }
-}
-
-func present<A>(navigationController: UINavigationController, initialValue: A, viewController: VC<A,()>) {
-    let vc = viewController.vc(initialValue) { _, _ in () }
-    if navigationController.viewControllers.count >= 1 {
-        navigationController.pushViewController(vc, animated: true)
-    } else {
-        navigationController.viewControllers = [vc]
-    }
-    
-}
 
 let storyboard = UIStoryboard(name: "Main", bundle: nil)
 let artistSelection : VC<[Artist],Artist> = VC(artistMasterViewController)

@@ -79,13 +79,13 @@
 		83E6D94B19B798B40049E6F4 /* MasterDetail */ = {
 			isa = PBXGroup;
 			children = (
+				83E6D96D19B7A51A0049E6F4 /* FunctionalVC.swift */,
 				83E6D94E19B798B40049E6F4 /* AppDelegate.swift */,
 				83E6D95019B798B40049E6F4 /* MasterViewController.swift */,
 				83E6D95219B798B40049E6F4 /* DetailViewController.swift */,
 				83E6D95419B798B40049E6F4 /* Main.storyboard */,
 				83E6D95719B798B40049E6F4 /* Images.xcassets */,
 				83E6D94C19B798B40049E6F4 /* Supporting Files */,
-				83E6D96D19B7A51A0049E6F4 /* FunctionalVC.swift */,
 			);
 			path = MasterDetail;
 			sourceTree = "<group>";
