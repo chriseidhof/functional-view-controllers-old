@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication!, didFinishLaunchingWithOptions launchOptions: NSDictionary!) -> Bool {
         let nc = window?.rootViewController as UINavigationController
-        let combined = pushTransition(artistSelection, artistDetail)
+        let combined = pushTransition(artistSelection, or(artistDetail,albumSelection))
         present(nc, myArtists, combined)
         println(nc.viewControllers)
         return true

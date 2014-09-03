@@ -14,6 +14,7 @@
 		83E6D95819B798B40049E6F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83E6D95719B798B40049E6F4 /* Images.xcassets */; };
 		83E6D96419B798B40049E6F4 /* MasterDetailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E6D96319B798B40049E6F4 /* MasterDetailTests.swift */; };
 		83E6D96E19B7A51A0049E6F4 /* FunctionalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E6D96D19B7A51A0049E6F4 /* FunctionalVC.swift */; };
+		83E6D97219B7B6A00049E6F4 /* Either.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E6D97119B7B6A00049E6F4 /* Either.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		83E6D96219B798B40049E6F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83E6D96319B798B40049E6F4 /* MasterDetailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterDetailTests.swift; sourceTree = "<group>"; };
 		83E6D96D19B7A51A0049E6F4 /* FunctionalVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionalVC.swift; sourceTree = "<group>"; };
+		83E6D97119B7B6A00049E6F4 /* Either.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Either.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				83E6D95419B798B40049E6F4 /* Main.storyboard */,
 				83E6D95719B798B40049E6F4 /* Images.xcassets */,
 				83E6D94C19B798B40049E6F4 /* Supporting Files */,
+				83E6D97119B7B6A00049E6F4 /* Either.swift */,
 			);
 			path = MasterDetail;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				83E6D96E19B7A51A0049E6F4 /* FunctionalVC.swift in Sources */,
 				83E6D95119B798B40049E6F4 /* MasterViewController.swift in Sources */,
 				83E6D94F19B798B40049E6F4 /* AppDelegate.swift in Sources */,
+				83E6D97219B7B6A00049E6F4 /* Either.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
